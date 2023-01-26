@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Home from "./Pages/Home/Home";
 import LeftNav from "./shared/LeftNav/LeftNav";
 import RightNav from "./shared/RightNav/RightNav";
 import Header from "./shared/Header/Header";
@@ -13,7 +12,7 @@ const Main = () => {
       <Header></Header>
       <Container>
         <Row>
-          <Col lg="2">
+          <Col lg="2" className="d-none d-lg-block">
             <LeftNav></LeftNav>
           </Col>
           <Col lg="7">
